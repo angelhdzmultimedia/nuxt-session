@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { NuxtError } from '#app'
 
-const email = ref<string>('angelhdz@gmail.com')
-const password = ref<string>('123456')
-const username = ref<string>('angelhdz')
-const name = ref<string>('Angel')
+const email = ref<string>('')
+const password = ref<string>('')
+const username = ref<string>('')
+const name = ref<string>('')
 
 const auth = useAuthStore()
 
